@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    display: flex; 
+    justify-content: center;
+    background-color:crimson;
+}
+
+.menu {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.menu ul li a:hover{
+    color:chartreuse;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu ul li {
+    display: inline;
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.menu ul li.search input {
+    padding: 6px;
+    border-radius: 5px;
+    border: none;
+    width: 150px;
+}
+
+@media (max-width: 768px) {
+    .menu ul li.search {
+        display: flex;
+    }
+}
+
+
+.icones-header{
+    display: flex;
+    justify-content: right;
+    
+
+}
+
+.icones-header img {
+    width: 30px;
+    height: 30px;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+input{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 40px;
+}
+
+
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+
+.logo-batom{
+    width: 1400px;
+}
+
+.logo-masculino{
+    width: 1400px;
+
+}
+
+.sub-titulo{
+    color:brown;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.texto{
+    font-size: 20px;
+}
+
+h2{
+    margin: 20px;
+    color:black;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.produtos-container{
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    border: solid 1px #ccc;
+}
+
+.imagem{
+    max-width: 100%;
+    height: auto;
+}
+
+.preco{
+    color:black;
+    font-size: 20px;
+}
+
+button{
+    font-size: 20px;
+    padding: 10px;
+    border-style: none;
+    background-color:crimson;
+    color: #ffffff;
+}
+
+button:hover{
+    color:chartreuse;
+}
+
+.logo-base{
+    width: 1400px;
+}
+
+@media (max-width: 900px){
+    .logo-batom{
+        width: 900px;
+    }
+}
+
+@media (max-width: 900px){
+    .logo-base{
+        width: 900px;
+    }
+}
+
+@media (max-width: 765px){
+    .logo-batom{
+        width: 800px;
+    }
+}
+
+@media (max-width: 765px){
+    .logo-base{
+        width: 800px;
+    }
+}
+
+@media (max-width:500px){
+    .logo-batom{
+        width: 500px;
+    }
+}
+
+@media (max-width:500px){
+    .logo-base{
+        width: 500px;
+    }
+}
+
+@media (max-width:500px){
+    .logo-masculino{
+        width: 500px;
+    }
+}
+
+@media(max-width:500px){
+    .logo-masculino{
+        width: 500px;
+    }
+}
+   
+@media(max-width:765px){
+    .logo-masculino{
+        width: 600px;
+    }
+}
+
+@media (max-width: 900px){
+    .logo-masculino{
+        width: 900px;
+    }
+}
